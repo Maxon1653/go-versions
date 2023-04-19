@@ -54,4 +54,5 @@ class NixGoBuilder : GoBuilder {
         $OutputPath = Join-Path $this.ArtifactFolderLocation $this.OutputArtifactName
         Create-TarArchive -SourceFolder $this.WorkFolderLocation -ArchivePath $OutputPath
     }
+    
 }

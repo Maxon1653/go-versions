@@ -23,3 +23,4 @@ rm $GO_TOOLCACHE_VERSION_ARCH_PATH/setup.sh
 
 echo "Create complete file"
 touch $GO_TOOLCACHE_VERSION_PATH/x64.complete
+

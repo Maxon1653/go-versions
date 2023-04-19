@@ -1,3 +1,4 @@
+
 $ErrorActionPreference = "Stop"
 
 [version]$Version = "{{__VERSION__}}"

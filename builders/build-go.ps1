@@ -69,3 +69,4 @@ function Get-GoBuilder {
 ### Create Go builder instance, and build artifact
 $Builder = Get-GoBuilder -Version $Version -Platform $Platform -Architecture $Architecture
 $Builder.Build()
+

@@ -112,5 +112,7 @@ class GoBuilder {
 
         Write-Host "Archive artifact"
         $this.ArchiveArtifact()
+
     }
 }
+

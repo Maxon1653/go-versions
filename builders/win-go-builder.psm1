@@ -1,3 +1,4 @@
+
 using module "./go-builder.psm1"
 
 class WinGoBuilder : GoBuilder {
@@ -61,4 +62,5 @@ class WinGoBuilder : GoBuilder {
         $OutputPath = Join-Path $this.ArtifactFolderLocation $this.OutputArtifactName
         Create-SevenZipArchive -SourceFolder $this.WorkFolderLocation -ArchivePath $OutputPath -ArchiveType "zip"
     }
+    
 }
